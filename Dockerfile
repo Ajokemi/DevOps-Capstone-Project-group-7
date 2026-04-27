@@ -6,6 +6,6 @@ ENV NODE_ENV=development
 
 ENV PORT=5000
 
-CMD ['nginx', '-g', '-daemon.off;']
+CMD ["nginx", "-g", "-daemon.off";]
 
 EXPOSE 5000
